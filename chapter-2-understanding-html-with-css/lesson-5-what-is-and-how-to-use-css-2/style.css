@@ -1,0 +1,15 @@
+h1 { /* A alteração será realizada em TODOS os elementos 'h1'*/
+    color: blue; /* Altera a cor de todos os 'h1' para azul */
+    font-size: 15px; /* Altera o tamanho da fonte de todos os 'h1'*/
+}
+a { /* Para todos os elementos 'a' */
+    color: green; /* Altera a cor do texto para verde */
+    font-size: 30px; /* E o tamanho da fonte para 30px */
+}
+img { /* Para todos os elementos com a tag 'img' */
+    width: 200px; /* Altera a largura para 200px */
+}
+li { /* Para todos os elementos com a tag 'li' */
+    font-weight: bold; /* Altera o texto para negrito */
+    color: blueviolet; /* Altera a cor para lilás */
+}
