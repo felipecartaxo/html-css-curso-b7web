@@ -1,0 +1,28 @@
+* { /* * Caso queira tirar o padding e o margin padrão da mágina, coloque a propriedade em questão */
+    margin: 0;
+    padding: 0;
+}
+
+.example {
+    background-color: #7733AA;
+    width: auto; /* * É o valor padrão de uma 'div', ou seja, a 'div' vai ocupar todo o espaço disponivel para ela */
+    width: 100%; /* * É possível definir os valores de 'width' e 'height' em % */
+    height: 100px;
+    /* * Tente alterar o 'width' e 'height' para '500px' e coloque o valor de 'width: inherit', na imagem abaixo */
+}
+
+img {
+    /* * É possível passar como valor: */
+    /* * '%': Pega uma % da área disponível para o meu elemento (não necessariamente quer dizer que pegará uma % da tela, depende de onde o elemento em questão se encontra). É bastante utilizado  */
+    /* * 'px': Pega um valor fixo, em px. É bastante utilizado */
+    /* * 'auto': Pega o valor padrão do elemento */
+    /* * 'cm': Determina um valor em centímetros. Aparentemente é pouquíssimo utilizado */
+    /* * 'inherit': Vai herdar a mesma largura do item pai */
+    /*  */
+    /* * width: auto; Neste caso vai pegar o tamanho padrão da imagem */
+    width: 100%; /* * Vai pegar 100% da área disponível para a minha imagem */
+    max-width: 100px; /* * Note que, mesmo setando 'width: 100%', a imagem em questão não passará de 100px, devido à propriedade 'max-width' */
+    width: 20px;
+    min-width: 50px; /* * De forma análoga ao 'max-width', o min-width' fará com que a imagem não seja menor do que o valor estipulado na propriedade 'min-width', mesmo se você redefinir o tamanho logo abaixo */
+    width: 1px;
+}

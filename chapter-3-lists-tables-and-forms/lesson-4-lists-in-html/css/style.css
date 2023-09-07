@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+p {
+    color: #0000FF;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul {
+    /* * list-style-type: square; Altera o símbolo dos itens da <ul>. Neste caso, altera para um quadrado */
+    list-style-type: none; /* * Retira os símbolos das <ul> */
+}

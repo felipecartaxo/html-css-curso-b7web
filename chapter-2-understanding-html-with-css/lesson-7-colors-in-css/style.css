@@ -1,0 +1,11 @@
+#title {
+    /* * background-color: red;  * Altera a cor de background de um elemento. Nesse caso, é válido ressaltar que manipular cores deste forma, isto é, escrevendo-as por extenso, é muito limitado, pois o na memória do CSS só existem 140 nomes de cores
+
+    * background-color: rgb(0, 0, 0);* Utilizando RGB é possível obter diversas variações de cores mexendo apenas nos valores 'red', 'green' e 'blue'. Esta combinação resulta em 'black'
+
+    * background-color: rgb(100, 50, 200); Esta combinação resulta em roxo */
+    
+    background-color: #FF0000; /* * Altera a cor por meio de hexadecimal. Neste caso, resulta na cor vermelha */
+
+    color: rgb(255, 255, 255); /* * Altera a cor do texto de um elemento. Esta combinação resulta em branco */
+}

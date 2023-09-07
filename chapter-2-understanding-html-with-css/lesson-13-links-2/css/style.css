@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/* p {
+    font-size: 24px;
+} */
+
+.link {
+    font-size: 30px;
+    color: #00BB00;
+}
+
+.link:hover { /* * Estilo que será aplicado apenas quando o cursor estiver sobre o link */
+    color: #cc0000;
+}
+
+.link:visited {
+    color: #ff33cc; /* * Estilo que será aplicado aos links que já acessamos */
+}

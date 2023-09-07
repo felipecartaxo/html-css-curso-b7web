@@ -1,0 +1,19 @@
+* { /* * Caso queira tirar o padding e o margin padrão da mágina, coloque a propriedade em questão */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px; /* * O 'body', por padrão, possui 'margin: 8px', logo, caso for do seu interesse deixar o elemento "colado" na página, coloque 'margin: 0px' no começo do código */
+}
+
+.example {
+    border: 1px solid #8833FF;
+    /* *padding: 10px ; Espaçamento INTERNO do meu elemento. Em outras palavras, é o espaçamento entre meu elemento e sua respectiva borda. Neste caso, para todos os lados (left, right, top, bottom) */
+    /* * margin: 10px; Espaçamento EXTERNO do meu elemento. Em outras palavras, é o espaçamento entre meu elemento e os demais elementos da página, também para todos os lados (left, right, top, bottom) */
+    /* * padding-left: 10px;  Aplica o espaçamento interno apenas na esquerda */
+    /* * padding-top: 50px; Aplica o espaçamento interno apenas na parte superior */
+    /* * padding: 10px 50px 10px 50px; Como aplicar o padding com valores diferentes em todos os lados (os valores são colocados em sinto horário, partindo do top > right > bottom > left) */
+    padding: 10px 50px; /* * O primeiro valor corresponde a 'top' e 'bottom' e o segundo a 'left' e 'right' */
+    /* * O 'margin' possui as mesmas propriedades e funciona da mesma forma */
+}

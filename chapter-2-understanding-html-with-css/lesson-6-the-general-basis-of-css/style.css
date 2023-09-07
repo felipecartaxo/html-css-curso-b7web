@@ -1,0 +1,39 @@
+/* h1 { Seleciona todos os elementos 'h1', através do seletor do nome do elemento, e altera a cor para 'red'
+    color: red;
+}
+
+#title { Seleciona, através do seletor de id, o elemento cujo id é '#title', e altera a cor do mesmo para 'green'. É limitado a apenas um elemento
+    color: green;
+}
+
+.text { Seleciona, através do seletor de class, o(s) elemento(s) cuja classe é(são) '.text' e altera a cor deste(s) para 'orange'. Diferentemente do id, a classe pode ser utilizada em quantos elementos você quiser e costuma ser mais utilizada do que o 'id'
+    color: orange;
+} */
+
+/* #title { Seleciona o elemento cujo id é '#title' e altera a cor e a fonte do mesmo
+    color: blue;
+    font-size: 25px;
+}
+
+.text { Seleciona todos os elemtentos com a classe '.text' e alterar a cor e a fonte das mesmas
+    color: blue;
+    font-size: 25px;
+}  */
+
+#title,
+.text { /* * Altera a estilização do elemento cujo id é '#title' e dos elementos que possuem a classe'.text'. A alteração é feita nos 2 elementos */
+    color: blue;
+    font-size: 25px;
+}
+
+#title { /* * Seleciona o elemento cujo id é '#title' e altera o peso da fonte para 'normal' */
+    font-weight: normal;
+}
+
+.text {
+    font-weight: bold; /* * Seleciona os elementos que possuem a classe '.text' e altera o peso da fonte para 'bold' */
+} 
+
+ol li {
+    color: pink; /* * Seleciona os elementos 'li' que estão dentro de 'ol' e altera a cor dos 'li' para 'pink' */
+}

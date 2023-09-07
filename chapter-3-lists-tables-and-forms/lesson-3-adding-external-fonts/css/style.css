@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive; /* * Aplicando a fonte 'Indie Flower' */
+}
+
+p {
+    color: #0000FF;
+    font-size: 20px;
+    font-family: 'Chilanka', cursive; /* * Utilizando a fonte 'Chilanka' que foi importada do Google Fonts */
+    text-align: justify;
+}

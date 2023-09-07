@@ -1,0 +1,29 @@
+#title {
+    background-color: rgb(150, 100, 255);
+    color: rgb(255, 255, 255)
+}
+
+p {
+    /* * border: 5px solid rgb(0, 0, 255);  Propriedade para inserir uma borda num determinado elemento. Sintaxe: 'largura da borda' 'tipo de borda' 'cor da borda'. Nesse caso, o tipo de borda é 'solid', fazendo com que a borda seja uma linha contínua nos quadros lados*/
+    /* * border: 5px dotted rgb(0, 0, 255); 'dotted' faz com a borda fique pontilhada */
+    /* * border: 5px dashed rgb(0, 0, 255);  'dashed' faz com que a borda seja composta por pequenos traços */
+    /* * border-bottom: 5px solid rgb(0, 0, 255); Coloca a borda apenas na parte inferior */
+    /* * border-top: 5px solid rgb(0, 0, 255); Coloca a borda apenas na parte superior */
+    /* * border-left: 5px solid rgb(0, 0, 255); Coloca a borda apenas na parte esquerda */
+    /* * border-right: 5px solid rgb(0, 0, 255); Coloca a borda apenas na parte direita (bem na extremidade da página) */
+    background-color: rgb(0, 0, 255);
+    border-radius: 5px; /* * Arrendoda as extremidades da borda */
+}
+
+div {
+    background-color: rgb(20, 255, 80);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; /* * Para criar um círculo perfeito, o valor do 'border-radius' deve ser meta do tamanho do quadrado, ou seja, width/2 = 100px */
+    border: 3px solid rgb(10, 50, 10);
+}
+
+img { /* Também é possível colocar bordar em outros elementos, como em 'img' */
+    border: 5px solid rgb(255, 20, 50);
+    border-radius: 5px;
+}

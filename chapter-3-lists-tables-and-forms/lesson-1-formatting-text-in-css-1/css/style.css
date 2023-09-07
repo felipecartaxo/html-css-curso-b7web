@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+p {
+    color: #0000FF; /* * Altera a cor da fonte */
+    font-size: 30px; /* * Altera o tamanho da fonte */
+    font-weight: bold; /* * Coloca em negrito */
+    font-family: Helvetica, Arial, Comic sans-serif; /* * Altera o tipo da fonte. Nesse caso, a primeira fonte que tentará ser utilizada é a 'Helvetica'. Caso não esteja instalada no dispositivo do usuário, então a fonte 'Arial' será utilizado e assim por diante... */
+    text-align: justify; /* * Define o alinhamento do texto (o valor padrão é 'left') */
+
+}
+
+a {
+    text-decoration: none; /* * Define a decoração do texto (por padrão, a tag '<a>' vem com 'underline' */
+}
+
+a:hover { 
+    text-decoration: underline; /* * O link ficará sublinhado apenas quando o cursor estiver sobre o link */
+}
