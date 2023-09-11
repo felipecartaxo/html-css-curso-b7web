@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+table { 
+    width: 600px;
+     /* * border: 1px solid #000; Se aplicarmos a borda no elemento 'table', a borda será aplicado apenas na tabela externa, portanto não ficará devidamente estilizada */
+}
+
+table thead { /* * Estiliza apenas o cabeçalho */
+    background-color: #D8B4F8;
+}
+
+th {
+    font-weight: normal; /* * Remove o negrito do cabeçalho */
+}
+
+table tbody { /* * Estiliza apenas o do corpo da tabela */
+    background-color: #CAEDFF;
+}
+
+th, td { /* * Estiliza todos os 'th' e 'td' */
+    padding: 10px;  /* * Adiciona um espaçamento interno de 10px */
+    text-align: left; /* * Alinha o texto à esquerda */
+}
+
+tbody tr:hover { /* * Aplica a estilização nas linhas(nesse caso excluindo as linhas do cabeçalho) onde o cursor estiver sobre */
+    background-color: #7091F5;
+}
+
+tbody td {
+    border-bottom: 1px solid #000; /* * Aplica uma linha na parte inferior de cada 'td' do 'tbody' */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFC7EA; /* * O estilo será aplicado apenas nas linhas ímpares */
+}

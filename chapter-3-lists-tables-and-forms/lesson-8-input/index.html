@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3 - Lesson 8</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Sign in</h2>
+    <form action="pages/login.html" method="GET">
+        <!-- <input type="text" name="user"> Input padrão onde é possível visualizar o que está sendo visualizado
+
+        <input type="password"> Input onde o que está sendo digitado não pode ser visualizado (os caractereses são convertidos para '*')
+
+        <input type="checkbox"> 'Caixinha' que você pode marcar ou desmarcar
+
+        <input type="radio" name="Gender"> Normalmente utilizada para selecionar opções preestabelecidas, mas apenas uma delas 
+        
+        <input type="radio" name="Gender"> Para tal, é necessário colocá-las no mesmo 'name' ou irão operar separadamente e permitir que as duas possam ser selecionadas (situação indesejável)
+        
+        <input type="submit"> Botão que irá acionar o envio do formulário 
+        
+        <input type="email"> Variação do 'type="text"', mas formatando este campo para receber um email -->
+        
+        <input type="text" name="user" value="Neraky"> <!-- * O atributo 'name' identifica a informação será enviada. Praticamente obrigatório em todo tipo de input, exceto no 'type="submit"' -->
+
+        <!-- * Já o atributo 'value' define um valor padrão para o input (virá previamente preenchido com o valor que foi especificado) -->
+
+        <input type="submit" value="Login"> <!-- * Ao inserir um nome qualquer e clicar em 'Enviar', é possível visualizar na, URL, o atributo 'name' + o valor que foi inserido -->
+
+        <!-- * Por meio do 'value', é possível alterar o texto do botão -->
+    </form>
+
+    <h2>Sign up</h2>
+    <form action="pages/login.html" method="GET">
+        <input type="text" name="userName" value="karenneraky@gmail.com"> 
+        <input type="password" name="userPassword"> <!-- * Note que o campo 'userPassword' ficou disponível na URL da página -->
+        <input type="submit" value="Create account">
+    </form>
+</body>
+</html>
